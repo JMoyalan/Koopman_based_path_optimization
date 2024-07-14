@@ -11,3 +11,7 @@ The quadruped navigation is a two-stage hierarchical process that involves a **g
 <p align="center">
 <img src="figures/legged_locomotion.PNG" width="1000">
 </p>
+
+## Quad-SDK
+
+We use `Quad-SDK` for producing torque controller in the local planner stage of the quadruped navigation. `Quad-SDK` is an open-source, ROS-based full-stack software framework for agile quadrupedal locomotion. Refer to [QUad-SDK Github page](https://github.com/robomechanics/quad-sdk?tab=readme-ov-file) for installation, dependency, and unit testing information on the software. 
