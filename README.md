@@ -20,5 +20,7 @@ We use `Quad-SDK` for producing leg torque control in the local planner stage of
 We present two off-road terrain navigation for quadruped locomotion: `C-shaped_terrain` and `hill_and_pit`. By running the files `C-shaped_terrain/Global_planner_C_shaped_terrain.m` and `hill_and_pit/Global_planner_hill_pit.m`, we obtain the optimal trajectory in terms of position and velocity which is then fed to `Quad-SDK` framework to generate leg torque control.
 
 ### C-shaped terrain
-<video src='videos/C_shaped_PF_planner.mp4' width=180/>
+Optimal trajectory obtained from solving Koopman-based optimization | Quadruped tracking the optimal trajectory
+:-: | :-:
+<img src='figures/c_shaped_plot.PNG' width=180/> | <img src='figures/c_shape.png' width=180/>
 ### Hill and pit
