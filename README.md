@@ -22,5 +22,5 @@ We present two off-road terrain navigation for quadruped locomotion: `C-shaped_t
 ### C-shaped terrain
 Optimal trajectory obtained from solving Koopman-based optimization | Quadruped tracking the optimal trajectory
 :-: | :-:
-<img src='figures/c_shaped_plot.PNG' width=180/> | <img src='figures/c_shape.png' width=180/>
+<img src='figures/c_shaped_plot.PNG' width="500"> | <img src='figures/c_shape.png' width="500">
 ### Hill and pit
