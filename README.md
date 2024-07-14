@@ -24,3 +24,6 @@ Optimal trajectory obtained from solving Koopman-based optimization | Quadruped 
 :-: | :-:
 <img src='figures/c_shaped_plot.PNG' width="500"> | <img src='figures/c_shape.png' width="500">
 ### Hill and pit
+Optimal trajectory obtained from solving Koopman-based optimization | Quadruped tracking the optimal trajectory
+:-: | :-:
+<img src='figures/hill_pit_plot.PNG' width="500"> | <img src='figures/mountain_and_pit.png' width="500">
