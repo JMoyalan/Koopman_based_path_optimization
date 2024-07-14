@@ -17,7 +17,7 @@ The quadruped navigation is a two-stage hierarchical process that involves a **g
 We use `Quad-SDK` for producing leg torque control in the local planner stage of the quadruped navigation. `Quad-SDK` is an open-source, ROS-based full-stack software framework for agile quadrupedal locomotion. Refer to [QUad-SDK Github page](https://github.com/robomechanics/quad-sdk?tab=readme-ov-file) for installation, dependency, and unit testing information on the software. 
 
 ## Examples
-We present two off-road terrain navigation for quadruped locomotion: `C-shaped_terrain` and `hill_and_pit`. By running the files 'C-shaped_terrain/Global_planner_C_shaped_terrain.m' and 'hill_and_pit/Global_planner_hill_pit.m', we obtain the optimal trajectory in terms of position and velocity which is then fed to `Quad-SDK` framework to generate leg torque control.
+We present two off-road terrain navigation for quadruped locomotion: `C-shaped_terrain` and `hill_and_pit`. By running the files `C-shaped_terrain/Global_planner_C_shaped_terrain.m` and `hill_and_pit/Global_planner_hill_pit.m`, we obtain the optimal trajectory in terms of position and velocity which is then fed to `Quad-SDK` framework to generate leg torque control.
 
 ### C-shaped terrain
 <video src='videos/C_shaped_PF_planner.mp4' width=180/>
